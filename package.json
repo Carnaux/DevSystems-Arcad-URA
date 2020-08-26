@@ -1,0 +1,14 @@
+{
+  "name": "devSystems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "install-dev": "cd dbServer && echo INSTALLING DBSERVER && npm install && cd ../ESP-Simulation && echo INSTALLING ESP-SIMULATION && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
